@@ -42,7 +42,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install apache2 -y
 ```
 
-![System Update and Apache Install](Project%20Screenshots/01-apt-update-apache-install.png)
+![System Update and Apache Install](01-apt-update-apache-install.png)
 *apt upgrade completing — Apache2 installed and service symlinks created on Ubuntu 24.04 ARM*
 
 ---
@@ -60,7 +60,7 @@ sudo apt install apache2 -y
 sudo systemctl status apache2
 ```
 
-![Apache Service Status](Project%20Screenshots/02-apache-service-status.png)
+![Apache Service Status](02-apache-service-status.png)
 *apache2.service confirmed active (running) — enabled, 3 worker processes, 5.1M memory*
 
 ---
@@ -72,7 +72,7 @@ sudo systemctl status apache2
 2. Confirmed Apache2 Ubuntu Default Page loaded — **"It works!"**
 3. Validated Apache was serving HTTP traffic on port 80 before customization
 
-![Apache Default Page](Project%20Screenshots/03-apache-default-page.png)
+![Apache Default Page](03-apache-default-page.png)
 *Apache2 Ubuntu Default Page confirming web server is operational at http://localhost*
 
 ---
@@ -93,7 +93,7 @@ sudo tee /var/www/html/index.html
 > Apache is successfully running on Ubuntu 24.04 ARM.
 > Built in Parallels VM on Apple Silicon Mac.
 
-![Custom HTML Page Live](Project%20Screenshots/04-custom-html-page-live.png)
+![Custom HTML Page Live](04-custom-html-page-live.png)
 *Custom HTML page live at http://localhost — confirming full Apache deployment and content hosting*
 
 ---
